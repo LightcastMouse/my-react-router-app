@@ -4,7 +4,7 @@ import { NavBar } from "~/components/layout/NavBar";
 export default function AppLayout() {
   return (
     <>
-      {/* <NavBar /> */}
+      <NavBar />
 
       <main className="px-6">
         <Outlet />
